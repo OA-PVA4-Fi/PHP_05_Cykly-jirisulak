@@ -8,5 +8,32 @@
 
 //reseni
 
+
+// Deklarace asociativního pole s názvy měsíců
+$months = [
+     "Leden",
+     "Únor",
+     "Březen",
+     "Duben",
+     "Květen",
+     "Červen",
+     "Červenec",
+     "Srpen",
+     "Září",
+     "Říjen",
+     "Listopad",
+     "Prosinec"
+];
+
+foreach ($months as $value){
+    echo $value;
+}
+
+for ($i = 6; $i <= 11; $i++){
+    echo $months[$i];
+}
+
+
+
 ?>
 
