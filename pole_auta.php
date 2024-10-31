@@ -18,5 +18,19 @@ $cars = array (
 );
 
 //reseni
+$prodane = 0;
+$skladem = 0;
+
+foreach ($cars as $a){
+	$prodane = $a[1] + $prodane;
+	$skladem = $a[2] + $skladem;
+}
+
+echo "Prodané:", $prodane;
+echo " ";
+echo "Skladem:", $skladem;
+
+
+
 
 ?>
